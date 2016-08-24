@@ -1,0 +1,30 @@
+﻿{
+	"manifest_version": 2,
+	"name": "微博爬虫demo  by xiaok",
+	"version": "0.0.1",
+	"background": { "scripts": ["js/ch_jquery3.0.min.js", "js/wdb.js", "js/background.js"] },
+
+	"browser_action": {
+	    "default_icon": "img/2-38.png",
+	    "default_popup": "html/popup.html"
+	},
+	"icons":
+	{
+		"16": "img/2-38.png",
+		"48": "img/2-38.png",
+		"128": "img/2-38.png"
+	},
+	"permissions": [
+    	"cookies",
+		"activeTab",
+		"http://*/",
+		"file://*/"
+	],
+	"offline_enabled":true,
+	"content_scripts":[{
+		"matches":[
+			"*://*/*"
+		],
+		"js":["js/ch_jquery3.0.min.js", "js/content_script.js"]
+	}]
+}

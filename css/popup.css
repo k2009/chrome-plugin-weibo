@@ -1,0 +1,111 @@
+﻿body {
+	width: 360px;
+}
+.mui-content{
+	min-height: 300px;
+	padding-bottom: 10px;
+	height: 426px;
+	overflow: auto;
+	padding-top: 0 !important;
+}
+.w2{
+	display: block;
+	border-radius: 4px;
+	width: 80%;
+	margin: 0px auto;
+}
+.email{
+	color: #999;
+	text-align: center;
+}
+.mui-bar{
+	position: relative;
+}
+.mui-bar .va{
+	position: absolute;
+	right: 20px;
+	bottom: 4px;
+	color: #999;
+	font-size: 12px;
+}
+#fixed-bg-box{
+}
+
+#fixed-bg-box p{
+	display: none;
+}
+#fixed-bg-box .mui-btn{
+
+}
+
+
+#fixed-bg-box.no-tb p{
+	display: block;
+}
+#fixed-bg-box.no-tb .mui-btn,#fixed-bg-box.no-tb .mui-table-view{
+	display: none;
+
+}
+#fixed-bg-box .mui-btn{
+	margin: 10px auto;
+	width: 40%;
+	line-height: 8px;
+}
+
+#fixed-bg-box .mui-table-view-cell span{
+	display: inline-block;
+	color: #666;
+}
+
+#fixed-bg-box .mui-table-view-cell span.span-littleTitle{
+	margin-right: 10px;
+	color: #333;
+}
+
+.log-box{
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #000103;
+	color: green;
+	z-index: 9;
+	overflow: auto;
+}
+.log-box p{
+	color: #2cd85e;
+	margin-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.log-box div.blockbard{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
